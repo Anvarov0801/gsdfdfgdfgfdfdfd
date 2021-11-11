@@ -1,0 +1,144 @@
+  html{
+    box-sizing: border-box;
+  }
+
+  *,
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+   body{
+     margin: 0;
+     padding: 0;
+     line-height: 1.5;
+     font-family: "Arial";
+   }
+
+   .container{
+     max-width: 1080;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+  header{
+    
+   
+   margin-top: 30px;
+   margin-bottom: -15px;
+  }
+
+  .main3{
+    background: #F2F2F2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+  }
+    
+
+   li{
+     list-style-type: none;
+   }
+   a{
+     color: white;
+     text-decoration: none;
+   }
+
+   a:hover{
+     text-decoration: none;
+     color: white;
+   }
+
+   .lists{
+     opacity: 50%;
+   }
+   .main1{
+     /* margin-bottom: 20px; */
+     background: #F2F2F2;
+   }
+   .first-btn{
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 22px;
+    padding: 10px;
+    opacity: 60%;
+   }
+   .lists:hover{
+     border-bottom: 4px solid #33D35E  ;
+     padding-bottom: 33px;
+     transition: 1  s;
+     opacity: 100%;
+   }
+
+   
+
+   .link-btn{
+    background:linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   }
+   .link-btn:hover{
+    opacity: 60%;
+     color: white;
+     
+   }
+   .second-btn{
+     margin-top: 20px;
+   }
+   .main2{
+     padding-top: 100px;
+     padding-bottom: 100px;
+    background:  #F4F5F7;
+       }
+
+
+
+    .end-link{
+      color: black;
+    }
+    .end-link:hover{
+      color: #2AB6D9;
+    }
+
+    .main3-main{
+      border-radius: 5px;
+      padding-bottom: 10px;
+    }
+    .poragraf{
+      opacity: 70%;
+    }
+
+    .site-footer{
+      background: #2D314D;
+      
+
+    }
+
+
+    .footer-list{
+      display: flex;
+      margin-top: 40px;
+    justify-content: space-around;
+    margin-left: -45px;
+    }
+    .footer-list1{
+      margin-top: 20px;
+      color: white;
+    }
+    .col-sm-5{
+      margin-top: 80px;
+    }
+
+    .easybank{
+      margin-left: 70%;
+    }
+
+  .footer-img:hover{
+    background: #30C88F;
+  }
+
+  .footer-a:hover{ 
+    color: #30C88F;
+    
+  }
